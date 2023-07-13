@@ -9,6 +9,8 @@ public static class DependencyCreater
 {
     public static void CreateScoped(this IServiceCollection service)
     {
+        
         service.AddScoped<IFilmServices, FilmManager>();
+        
     }
 }
