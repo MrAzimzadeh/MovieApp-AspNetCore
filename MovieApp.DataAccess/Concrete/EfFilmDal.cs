@@ -5,6 +5,7 @@ using MovieApp.Entities.Concrete;
 namespace MovieApp.DataAccess.Concrete;
 
 public class EfFilmDal : EfRepositoryBase<Film, AppDbContext>, IFilmDal
-{
-    
+{ 
+        
 }
+
