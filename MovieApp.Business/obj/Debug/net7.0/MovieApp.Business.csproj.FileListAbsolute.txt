@@ -1,0 +1,12 @@
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.Business.deps.json
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.Business.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.Business.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.csproj.AssemblyReference.cache
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.AssemblyInfoInputs.cache
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.AssemblyInfo.cs
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\refint\MovieApp.Business.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\ref\MovieApp.Business.dll

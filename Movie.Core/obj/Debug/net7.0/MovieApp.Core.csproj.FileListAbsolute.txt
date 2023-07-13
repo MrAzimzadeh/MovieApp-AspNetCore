@@ -1,0 +1,14 @@
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\bin\Debug\net7.0\MovieApp.Core.deps.json
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\bin\Debug\net7.0\MovieApp.Core.runtimeconfig.json
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\bin\Debug\net7.0\MovieApp.Core.dll
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\bin\Debug\net7.0\MovieApp.Core.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.csproj.AssemblyReference.cache
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.AssemblyInfoInputs.cache
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.AssemblyInfo.cs
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.dll
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\refint\MovieApp.Core.dll
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\MovieApp.Core.genruntimeconfig.cache
+C:\Users\azimz\Desktop\K101\MovieApp\Movie.Core\obj\Debug\net7.0\ref\MovieApp.Core.dll

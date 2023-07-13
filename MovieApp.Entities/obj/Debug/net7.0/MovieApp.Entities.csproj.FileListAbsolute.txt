@@ -1,0 +1,15 @@
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\bin\Debug\net7.0\MovieApp.Entities.deps.json
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\bin\Debug\net7.0\MovieApp.Entities.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\bin\Debug\net7.0\MovieApp.Entities.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\bin\Debug\net7.0\MovieApp.Core.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\bin\Debug\net7.0\MovieApp.Core.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.csproj.AssemblyReference.cache
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.AssemblyInfoInputs.cache
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.AssemblyInfo.cs
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.csproj.CopyComplete
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\refint\MovieApp.Entities.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\MovieApp.Entities.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Entities\obj\Debug\net7.0\ref\MovieApp.Entities.dll
