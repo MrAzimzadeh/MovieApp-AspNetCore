@@ -16,7 +16,7 @@ namespace MovieApp.Entities.Concrete
         public string  CoverUrl { get; set; }
         public int Imdb { get; set; }
         public int View { get; set; }
-        public List<FilmActor> FilmActors { get; set; }
+        public List<FilmActor> FilmActors{ get; set; }
 
     }
 }

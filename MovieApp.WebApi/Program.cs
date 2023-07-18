@@ -1,4 +1,5 @@
 using MovieApp.Business.DependencyResolvers.OwnDependency;
+using MovieApp.DataAccess.DataSeeding.Abstract;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,15 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+
+    // acilan zaman  db elave etsin 
+    var dataSeeder = app.Services.GetRequiredService<IDataSeeder>();
+    dataSeeder.AddData();
+
 }
+
+
 
 app.UseHttpsRedirection();
 

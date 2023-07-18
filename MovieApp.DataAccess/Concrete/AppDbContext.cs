@@ -13,7 +13,7 @@ public class AppDbContext :  DbContext
     public DbSet<Film> Films { get; set; }
     public DbSet<Actor> Actors { get; set; }
     public DbSet<FilmActor> FilmActors { get; set; }
-    
-    
-    
+
+
+
 }

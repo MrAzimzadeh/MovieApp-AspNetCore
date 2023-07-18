@@ -10,3 +10,10 @@ C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\refint\MovieApp.Business.dll
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.pdb
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\ref\MovieApp.Business.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.Core.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.DataAccess.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.Entities.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.DataAccess.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.Core.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\bin\Debug\net7.0\MovieApp.Entities.pdb
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.Business\obj\Debug\net7.0\MovieApp.Business.csproj.CopyComplete
