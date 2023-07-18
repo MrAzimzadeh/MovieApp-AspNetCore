@@ -1,5 +1,6 @@
 ﻿using MovieApp.Business.Abstract;
 using MovieApp.DataAccess.Abstract;
+using MovieApp.Entities.DTOs;
 
 namespace MovieApp.Business.Concrete;
 
@@ -11,7 +12,17 @@ public class FilmManager : IFilmServices
     {
         _filmDal = filmDal;
     }
-    
-    
-    
+
+
+    public IEnumerable<FilmHomeDTO> GetHomePagesFilms()
+    {
+        return _filmDal.GetHomeFilms();
+
+    }
+
+    public FilmDetailDTO GetFilmById(int id)
+    {
+        var result = _filmDal.GetFilmById(id);
+        return result;
+    }
 }

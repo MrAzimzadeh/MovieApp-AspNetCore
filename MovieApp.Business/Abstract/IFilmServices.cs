@@ -1,6 +1,9 @@
-﻿namespace MovieApp.Business.Abstract;
+﻿using MovieApp.Entities.DTOs;
 
-public class IFilmServices
+namespace MovieApp.Business.Abstract;
+
+public interface IFilmServices
 {
-    
+    IEnumerable<FilmHomeDTO> GetHomePagesFilms();
+    FilmDetailDTO GetFilmById(int id);
 }
