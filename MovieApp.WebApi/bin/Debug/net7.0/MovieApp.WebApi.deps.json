@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "MovieApp.WebApi/1.0.0": {
         "dependencies": {
+          "Autofac": "7.0.1",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.9",
           "Microsoft.EntityFrameworkCore.Design": "7.0.9",
           "MovieApp.Business": "1.0.0",

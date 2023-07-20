@@ -1,3 +1,6 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using MovieApp.Business.DependencyResolvers.Autofac;
 using MovieApp.Business.DependencyResolvers.OwnDependency;
 using MovieApp.Business.Policys;
 using MovieApp.DataAccess.DataSeeding.Abstract;
@@ -12,7 +15,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // ! dependecyInjection
-builder.Services.CreateScoped();
+//builder.Services.CreateScoped();
+
+
+// todo   Autofac
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterModule(new AutofacBusinessModule()));
+
+
+
+
 // Property 
 builder.Services.AddControllers()
     .AddJsonOptions(option =>
