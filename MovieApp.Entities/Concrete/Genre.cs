@@ -10,6 +10,6 @@ namespace MovieApp.Entities.Concrete
     public class Genre : BaseEntity, IEntity
     {
         public string Name { get; set; }
-        List<FilmGenre> FilmGenre { get; set; }
+        public List<FilmGenre> FilmGenre { get; set; }
     }
 }

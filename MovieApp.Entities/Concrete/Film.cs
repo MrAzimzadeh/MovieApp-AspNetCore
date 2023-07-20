@@ -17,6 +17,7 @@ namespace MovieApp.Entities.Concrete
         public int Imdb { get; set; }
         public int View { get; set; }
         public List<FilmActor> FilmActors{ get; set; }
+        public List<FilmGenre> FilmGenres { get; set; }
 
     }
 }
