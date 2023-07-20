@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Movie.Core.Entities.Abstract;
 
-namespace MovieApp.Entities.DTOs
+namespace MovieApp.Entities.Concrete
 {
-    
-    public class FilmHomeDTO
+    public class Genre : BaseEntity, IEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
-        public string PhotoURL { get; set; }
-
+        List<FilmGenre> FilmGenre { get; set; }
     }
 }

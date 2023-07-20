@@ -1,4 +1,5 @@
 using MovieApp.Business.DependencyResolvers.OwnDependency;
+using MovieApp.Business.Policys;
 using MovieApp.DataAccess.DataSeeding.Abstract;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,16 @@ builder.Services.AddSwaggerGen();
 
 // ! dependecyInjection
 builder.Services.CreateScoped();
+// Property 
+builder.Services.AddControllers()
+    .AddJsonOptions(option =>
+    {
+        option.JsonSerializerOptions.PropertyNamingPolicy = new SnakeCaseNamingPolicy();
+        option.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+
+    });
+
+
 
 var app = builder.Build();
 
