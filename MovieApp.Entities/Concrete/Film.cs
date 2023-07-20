@@ -19,5 +19,7 @@ namespace MovieApp.Entities.Concrete
         public List<FilmActor> FilmActors{ get; set; }
         public List<FilmGenre> FilmGenres { get; set; }
 
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }

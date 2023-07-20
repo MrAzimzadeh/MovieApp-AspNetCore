@@ -82,3 +82,6 @@ C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Microsoft.
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Autofac.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll

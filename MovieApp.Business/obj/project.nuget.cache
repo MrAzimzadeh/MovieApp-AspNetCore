@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "8J+o8pa58Yy+EbQpHiPvNPVNv7cPYdluSnZ6RwPaszDe7KXj9OWh98gMJMJu5kjT6lkhj/lv1LPuGMlkQMdGRQ==",
+  "dgSpecHash": "9PI92nYTBSdHAFDl7MxGAa8PGuFnSFRfX2sWpOWGVuTjmzR5Sa4RJ5XkIwD9qkyloJOu5YE6GsKIM1HgOf0M2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\azimz\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\azimz\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\azimz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\azimz\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\azimz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
