@@ -3,6 +3,8 @@ using Movie.Core.DataAccess.EntityFreamwork;
 using MovieApp.DataAccess.Abstract;
 using MovieApp.Entities.Concrete;
 using MovieApp.Entities.DTOs;
+using MovieApp.Entities.DTOs.ActorDTOs;
+using MovieApp.Entities.DTOs.FilmDTOs;
 
 namespace MovieApp.DataAccess.Concrete;
 
@@ -15,7 +17,7 @@ public class EfFilmDal : EfRepositoryBase<Film, AppDbContext>, IFilmDal
         {
             Id = x.Id,
             Name = x.Name,
-            PhotoURL = x.PhotoUrl
+            PhotoUrl = x.PhotoUrl
         }).ToList();
         return result;
     }
@@ -32,7 +34,7 @@ public class EfFilmDal : EfRepositoryBase<Film, AppDbContext>, IFilmDal
             Description = z.Description,
             Imdb = z.Imdb,
             PhotoUrl = z.PhotoUrl,
-            VIdeoUrl = z.VIdeoUrl,
+            VideoUrl = z.VIdeoUrl,
             View = z.View,
             Actors = z.FilmActors.Select(a => new ActorDTO
             {

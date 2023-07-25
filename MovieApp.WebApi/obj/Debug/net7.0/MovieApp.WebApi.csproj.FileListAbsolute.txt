@@ -85,3 +85,4 @@ C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\System.Cod
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Autofac.dll
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Bogus.dll

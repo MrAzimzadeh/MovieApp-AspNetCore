@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Bogus;
 using MovieApp.DataAccess.Concrete;
 using MovieApp.DataAccess.DataSeeding.Abstract;
 using MovieApp.Entities.Concrete;
@@ -28,16 +29,24 @@ namespace MovieApp.DataAccess.DataSeeding.Concrete
 
             List<Actor> actors = new();
 
+
+            //bogusData.RuleFor(x =>x.Name , )
+
             if (!context.Actors.Any())
             {
-                actors.Add(new Actor { Name = "Actor1", Surname = "Surname1", Character = "Character1", PhotoUrl = "PhotoUrl1" });
-                actors.Add(new Actor { Name = "Actor2", Surname = "Surname2", Character = "Character2", PhotoUrl = "PhotoUrl2" });
-                actors.Add(new Actor { Name = "Actor3", Surname = "Surname3", Character = "Character3", PhotoUrl = "PhotoUrl3" });
-                actors.Add(new Actor { Name = "Actor4", Surname = "Surname4", Character = "Character4", PhotoUrl = "PhotoUrl4" });
-                actors.Add(new Actor { Name = "Actor5", Surname = "Surname5", Character = "Character5", PhotoUrl = "PhotoUrl5" });
+                var bogusData = new Faker<Actor>("az");
 
-                context.Actors.AddRange(actors);
+                // BOGUS DATA 
+                bogusData.RuleFor(x => x.Name, f => f.Name.FindName());
+                bogusData.RuleFor(x => x.Surname, f => f.Name.LastName());
+                bogusData.RuleFor(x => x.PhotoUrl, f => f.Internet.Avatar());
+                bogusData.RuleFor(x => x.Character, f => f.Internet.UserName());
+                bogusData.RuleFor(x => x.CreatedDate, f => f.Date.Recent());
+
+                var d = bogusData.Generate(10);
+                context.Actors.AddRange(d);
                 context.SaveChanges();
+
             }
 
             List<Film> films = new();

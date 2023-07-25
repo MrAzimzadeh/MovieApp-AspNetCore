@@ -36,5 +36,9 @@ namespace MovieApp.WebApi.Controllers
                 return BadRequest(e.Message); //  
             }
         }
+
+
+
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿using MovieApp.Business.Abstract;
 using MovieApp.DataAccess.Abstract;
-using MovieApp.Entities.DTOs;
+using MovieApp.Entities.DTOs.FilmDTOs;
 
 namespace MovieApp.Business.Concrete;
 

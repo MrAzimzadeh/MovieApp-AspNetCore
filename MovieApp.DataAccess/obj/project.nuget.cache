@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bbLBbgJPhBO3G/7e+VOeSDuY2Mn/3dx09WyLvsdngMlKqmp7qrwmD1zqIi96g1YDf2YDtb5Li2KpIL8NVnFn0g==",
+  "dgSpecHash": "UJy4Mv279Uoog6hXMn8EeTsgETGrapb9Cw1q6wivEwtrNOn6J+iA1N1VkHUTZ7YKuw1D/ZFEUqqEzudEicghSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azimz\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\azimz\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

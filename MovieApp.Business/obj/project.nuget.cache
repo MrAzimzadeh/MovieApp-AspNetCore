@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9PI92nYTBSdHAFDl7MxGAa8PGuFnSFRfX2sWpOWGVuTjmzR5Sa4RJ5XkIwD9qkyloJOu5YE6GsKIM1HgOf0M2A==",
+  "dgSpecHash": "vQJtMnnQMu2MKdiZXeSrlC00hjTfXLlFYEm8UfZXHXRrxY+oNNIJjOptHgSUZAF3fLsi1KfFXWKuFaW6DbgdMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\azimz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\azimz\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

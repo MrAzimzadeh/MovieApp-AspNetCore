@@ -1,4 +1,4 @@
-﻿using MovieApp.Entities.DTOs;
+﻿using MovieApp.Entities.DTOs.FilmDTOs;
 
 namespace MovieApp.Business.Abstract;
 

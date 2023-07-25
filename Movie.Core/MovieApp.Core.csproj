@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Utilities\Security\" />
-    <Folder Include="Utilities\Results\" />
   </ItemGroup>
 
   <ItemGroup>

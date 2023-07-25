@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MovieApp.Entities.Concrete;
+using MovieApp.Entities.DTOs.ActorDTOs;
 
-namespace MovieApp.Entities.DTOs
+namespace MovieApp.Entities.DTOs.FilmDTOs
 {
     public class FilmDetailDTO
     {
@@ -13,7 +14,7 @@ namespace MovieApp.Entities.DTOs
         public string Name { get; set; }
         public string Description { get; set; }
         public string PhotoUrl { get; set; }
-        public string VIdeoUrl { get; set; }
+        public string VideoUrl { get; set; }
         public string CoverUrl { get; set; }
         public int Imdb { get; set; }
         public int View { get; set; }
