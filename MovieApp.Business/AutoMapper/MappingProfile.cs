@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using Movie.Core.Entities.Concrete;
 using MovieApp.Entities.Concrete;
 using MovieApp.Entities.DTOs.ActorDTOs;
+using MovieApp.Entities.DTOs.UserDtos;
 
 namespace MovieApp.Business.AutoMapper
 {
@@ -16,9 +18,10 @@ namespace MovieApp.Business.AutoMapper
             CreateMap<Actor, ActorDTO>().ReverseMap();
 
             CreateMap<Actor, ActorCreateDTO>().ReverseMap();
-            
+
             CreateMap<Actor, ActorUpdateDTO>().ReverseMap();
 
+            CreateMap<User, UserRegisterDTO>().ReverseMap();
 
 
         }
