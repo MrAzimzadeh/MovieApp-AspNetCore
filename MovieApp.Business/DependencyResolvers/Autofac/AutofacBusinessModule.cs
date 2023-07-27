@@ -31,7 +31,12 @@ namespace MovieApp.Business.DependencyResolvers.Autofac
             // Actor 
             builder.RegisterType<EfActorDal>().As<IActorDal>();
             builder.RegisterType<ActorManager>().As<IActorService>();
-            
+
+
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<AuthManager>().As<IAuthService>();
+
         }
     }
 }

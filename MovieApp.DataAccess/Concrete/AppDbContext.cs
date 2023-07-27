@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Movie.Core.Entities.Concrete;
+using MovieApp.Core.Entities.Concrete;
 using MovieApp.Entities.Concrete;
 
 namespace MovieApp.DataAccess.Concrete;
 
-public class AppDbContext :  DbContext
+public class AppDbContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
     {
@@ -16,5 +18,9 @@ public class AppDbContext :  DbContext
     public DbSet<FilmGenre> FilmGenres { get; set; }
     public DbSet<Genre> Genres { get; set; }
     public DbSet<Category> Categories { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Role> Roles { get; set; }
+    public DbSet<UserRole> UserRoles { get; set; }
+
 
 }
