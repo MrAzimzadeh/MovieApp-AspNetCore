@@ -1,6 +1,9 @@
+using System.Text;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using MovieApp.Business.AutoMapper;
 using MovieApp.Business.DependencyResolvers.Autofac;
 using MovieApp.Business.DependencyResolvers.OwnDependency;
@@ -23,6 +26,31 @@ builder.Services.AddSwaggerGen();
 // todo   Autofac
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterModule(new AutofacBusinessModule()));
+
+
+
+// *  token  
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(option =>
+{
+    var key = Encoding.ASCII.GetBytes("nmDLKAna9f9WEKPPH7z3tgwnQ433FAtrdP5c9AmDnmuJp9rzwTPwJ9yUu");
+    var issuer = "ComparAcademy";
+    var audience = "ComparAcademy";
+
+    option.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        RequireExpirationTime = true,
+        ValidateAudience = true,
+        ValidateIssuer = true,
+        ValidAudience = audience,
+        ValidIssuer = issuer,
+    };
+});
 
 
 //auto map 
@@ -64,6 +92,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// bura olmalidir 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

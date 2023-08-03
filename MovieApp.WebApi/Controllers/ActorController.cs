@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MovieApp.Business.Abstract;
 using MovieApp.Entities.DTOs.ActorDTOs;
 
@@ -16,6 +17,7 @@ namespace MovieApp.WebApi.Controllers
         }
 
         [HttpGet("getall")]
+        [Authorize]
         public IActionResult GetActors()
         {
             try

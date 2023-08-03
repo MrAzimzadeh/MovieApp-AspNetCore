@@ -37,6 +37,10 @@ namespace MovieApp.Business.DependencyResolvers.Autofac
             builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<AuthManager>().As<IAuthService>();
 
+
+        
+
+
         }
     }
 }

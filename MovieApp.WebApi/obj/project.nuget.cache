@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g4w2GM//2lt93p17rWj5EzoVuFhG6Y4I09ViJ1NwvETx/SqbfQetBYKxadHmcB27knJedxvkQJQotUzv0Z8VGg==",
+  "dgSpecHash": "2+DmjEZp+wtuOjRxExrragcMlbfQVpeqEukmN7Jpa/XlqVY/5+y3bK5+3CZ1XlB7GTmzUVHbEJVTXUC9NvQi/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
+  "projectFilePath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azimz\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
@@ -11,6 +11,7 @@
     "C:\\Users\\azimz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\azimz\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.9\\microsoft.aspnetcore.authentication.jwtbearer.7.0.9.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\azimz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
