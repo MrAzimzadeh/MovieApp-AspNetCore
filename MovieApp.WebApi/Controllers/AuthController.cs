@@ -16,11 +16,23 @@ namespace MovieApp.WebApi.Controllers
         {
             _authService = authService;
         }
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] UserLoginDTO userLogin)
+        {
+            var result = _authService.Login(userLogin);
+            if(!result.Success)
+                return BadRequest();
+            return Ok(result);
+        }
+
+
+
+
 
         [HttpPost("register")]
-        public IActionResult Reggister([FromBody]UserRegisterDTO userRegister)
+        public IActionResult Reggister([FromBody] UserRegisterDTO userRegister)
         {
-           
+
 
             var result = _authService.Register(userRegister);
             if (result.Success)

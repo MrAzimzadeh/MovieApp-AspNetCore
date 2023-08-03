@@ -11,6 +11,7 @@ using MovieApp.Core.Utilities.Results.Conrete.SuccessResult;
 using MovieApp.DataAccess.Abstract;
 using MovieApp.Entities.Concrete;
 using MovieApp.Entities.DTOs.ActorDTOs;
+using MovieApp.Entities.DTOs.UserDtos;
 
 namespace MovieApp.Business.Concrete
 {
@@ -73,5 +74,7 @@ namespace MovieApp.Business.Concrete
             }
 
         }
+
+
     }
 }

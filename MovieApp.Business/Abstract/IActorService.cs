@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MovieApp.Core.Utilities.Results.Abstract;
 using MovieApp.Entities.DTOs.ActorDTOs;
+using MovieApp.Entities.DTOs.UserDtos;
 
 namespace MovieApp.Business.Abstract
 {
@@ -13,5 +14,6 @@ namespace MovieApp.Business.Abstract
         IResult AddActor(ActorCreateDTO actorCreateDto);
         IResult UpdateActor(ActorUpdateDTO actorCreateDto);
         IDataResult<List<ActorDTO>>GetActorList();
+       
     }
 }

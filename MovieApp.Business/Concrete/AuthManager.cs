@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Movie.Core.Entities.Concrete;
+using Movie.Core.Utilities.Security.Hashing.JWT;
 using MovieApp.Business.Abstract;
 using MovieApp.Core.Utilities.Results.Abstract;
 using MovieApp.Core.Utilities.Results.Conrete.ErrorResult;
@@ -26,9 +27,22 @@ namespace MovieApp.Business.Concrete
             _Mapper = mapper;
         }
 
-        public IResult Login(UserLoginDTO userLogin)
+        public IResult Login(UserLoginDTO userLoginDTO)
         {
-            throw new NotImplementedException();
+            var findUser = _UserDal.Get(x => x.Email == userLoginDTO.Email);
+            if (findUser is null)
+            {
+                return new ErrorResult(401, "Password or Email is Not correct ");
+            }
+            var checkPassword = HashingHelper.VerifyPasswordHash(userLoginDTO.Password, findUser.PasswordHash, findUser.PasswordSalt);
+            if (!checkPassword)
+            {
+                return new ErrorResult(401, "Password or Email is Not correct ");
+            }
+            var token = TokenGenerator.Token(findUser, "Admin");
+            
+            return new SuccessResult(201, token);
+
         }
 
         public IResult Register(UserRegisterDTO userRegister)
