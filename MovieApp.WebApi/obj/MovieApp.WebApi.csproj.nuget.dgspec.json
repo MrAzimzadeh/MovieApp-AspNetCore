@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj": {}
+    "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj": {
+    "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj",
         "projectName": "MovieApp.Core",
-        "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj",
+        "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj",
         "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\obj\\",
+        "outputPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,14 +79,14 @@
         }
       }
     },
-    "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj": {
+    "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj",
         "projectName": "MovieApp.Business",
-        "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj",
+        "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj",
         "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,8 +107,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj": {
-                "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj"
+              "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj": {
+    "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj",
         "projectName": "MovieApp.DataAccess",
-        "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\MovieApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,8 +184,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj": {
-                "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj"
+              "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj": {
+                "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj"
               },
               "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Entities\\MovieApp.Entities.csproj": {
                 "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Entities\\MovieApp.Entities.csproj"
@@ -272,8 +272,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj": {
-                "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj"
+              "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj": {
+                "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\Movie.Core\\MovieApp.Core.csproj"
               }
             }
           }
@@ -307,14 +307,14 @@
         }
       }
     },
-    "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj": {
+    "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
         "projectName": "MovieApp.WebApi",
-        "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
+        "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
         "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -328,14 +328,16 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj": {
-                "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj"
+              "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj": {
+                "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj"
               }
             }
           }

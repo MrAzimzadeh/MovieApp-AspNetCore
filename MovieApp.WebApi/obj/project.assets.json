@@ -4142,11 +4142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
       "projectName": "MovieApp.WebApi",
-      "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
+      "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\MovieApp.WebApi.csproj",
       "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4160,14 +4160,16 @@
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj": {
-              "projectPath": "c:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj"
+            "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj": {
+              "projectPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.Business\\MovieApp.Business.csproj"
             }
           }
         }

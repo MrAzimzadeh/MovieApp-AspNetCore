@@ -5,8 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Movie.Core.Entities.Concrete;
+using Movie.Core.Utilities.Bussiness;
 using Movie.Core.Utilities.Security.Hashing.JWT;
 using MovieApp.Business.Abstract;
+using MovieApp.Business.Constants;
 using MovieApp.Core.Utilities.Results.Abstract;
 using MovieApp.Core.Utilities.Results.Conrete.ErrorResult;
 using MovieApp.Core.Utilities.Results.Conrete.SuccessResult;
@@ -29,19 +31,15 @@ namespace MovieApp.Business.Concrete
 
         public IResult Login(UserLoginDTO userLoginDTO)
         {
-            var findUser = _UserDal.Get(x => x.Email == userLoginDTO.Email);
-            if (findUser is null)
+            var findUser = _UserDal.GetUserWithRole(userLoginDTO.Email);
+            var result = BussinessRoles.Check(CheckEmailOrPasswprd(userLoginDTO.Email), VerfilyPassword(findUser, userLoginDTO.Password));
+            if (result.Success)
             {
-                return new ErrorResult(401, "Password or Email is Not correct ");
+                var role = !findUser.UserRoles.Any() ? "User" : findUser.UserRoles.FirstOrDefault().Role.Name;
+                var token = TokenGenerator.Token(findUser, role);
+                return new SuccessResult(201, token);
             }
-            var checkPassword = HashingHelper.VerifyPasswordHash(userLoginDTO.Password, findUser.PasswordHash, findUser.PasswordSalt);
-            if (!checkPassword)
-            {
-                return new ErrorResult(401, "Password or Email is Not correct ");
-            }
-            var token = TokenGenerator.Token(findUser, "Admin");
-            
-            return new SuccessResult(201, token);
+            return new ErrorResult(401);
 
         }
 
@@ -57,7 +55,7 @@ namespace MovieApp.Business.Concrete
                     LastName = userRegister.LastName,
                     Email = userRegister.Email,
                     PasswordHash = passwordHash,
-                    PasswordSalt = passwordSalt
+                    PasswordSalt = passwordSalt,
                 };
 
                 //var mapper = _Mapper.Map<User>(userRegister);
@@ -68,6 +66,27 @@ namespace MovieApp.Business.Concrete
             {
                 return new ErrorResult(400, e.Message);
             }
+        }
+
+
+        private IResult CheckEmailOrPasswprd(string userEmail)
+        {
+            var findUser = _UserDal.Get(x => x.Email == userEmail);
+            if (findUser is null)
+            {
+                return new ErrorResult(401, Messages.EmailAndPasswordNotCorrect);
+            }
+            return new SuccessResult(201);
+        }
+
+        private IResult VerfilyPassword(User user, string Password)
+        {
+            var checkPassword = HashingHelper.VerifyPasswordHash(Password, user.PasswordHash, user.PasswordSalt);
+            if (!checkPassword)
+            {
+                return new ErrorResult(401, Messages.EmailAndPasswordNotCorrect);
+            }
+            return new SuccessResult(201);
         }
     }
 }

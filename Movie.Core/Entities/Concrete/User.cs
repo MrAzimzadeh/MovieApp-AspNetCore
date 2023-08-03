@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Movie.Core.Entities.Abstract;
+using MovieApp.Core.Entities.Concrete;
 
 namespace Movie.Core.Entities.Concrete
 {
@@ -16,6 +17,8 @@ namespace Movie.Core.Entities.Concrete
         public byte[] PasswordSalt { get; set; }
         public byte[] PasswordHash { get; set; }
         public bool EmailConfirmed { get; set; }
+
+        public List<UserRole> UserRoles { get; set; }
 
     }
 }

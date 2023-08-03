@@ -48,7 +48,5 @@ namespace MovieApp.WebApi.Controllers
             var result = _actorService.UpdateActor(actorUpdateDto);
             return Ok(result);
         }
-
-
     }
 }
