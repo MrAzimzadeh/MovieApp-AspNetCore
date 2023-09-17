@@ -87,3 +87,8 @@ C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Autofac.dl
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Bogus.dll
 C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\MassTransit.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\MassTransit.EntityFrameworkCoreIntegration.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\azimz\Desktop\K101\MovieApp\MovieApp.WebApi\bin\Debug\net7.0\RabbitMQ.Client.dll

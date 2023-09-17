@@ -3534,8 +3534,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\azimz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\azimz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3546,12 +3545,8 @@
       "packagesPath": "C:\\Users\\azimz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\azimz\\Desktop\\K101\\MovieApp\\MovieApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\azimz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

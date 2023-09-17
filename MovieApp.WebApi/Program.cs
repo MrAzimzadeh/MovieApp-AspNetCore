@@ -2,6 +2,7 @@ using System.Text;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using AutoMapper;
+using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using MovieApp.Business.AutoMapper;
@@ -9,6 +10,8 @@ using MovieApp.Business.DependencyResolvers.Autofac;
 using MovieApp.Business.DependencyResolvers.OwnDependency;
 using MovieApp.Business.Policys;
 using MovieApp.DataAccess.DataSeeding.Abstract;
+using MovieApp.WebApi.EventBus;
+using static MovieApp.WebApi.Commands.CommandsMessages;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -52,7 +55,16 @@ builder.Services.AddAuthentication(x =>
     };
 });
 
-
+var rabbitMqSettings = builder.Configuration.GetSection(nameof(RabbitMqSettings)).Get < RabbitMqSettings > ();
+builder.Services.AddMassTransit(mt => mt.UsingRabbitMq((cntxt, cfg) => {
+    cfg.Host(rabbitMqSettings.Uri, "/", c => {
+        c.Username(rabbitMqSettings.UserName);
+        c.Password(rabbitMqSettings.Password);
+    });
+    cfg.ReceiveEndpoint("samplequeue", (c) => {
+        c.Consumer < CommandMessageConsumer > ();
+    });
+}));
 //auto map 
 var mapperConfig = new MapperConfiguration(mc =>
 {
@@ -75,6 +87,14 @@ builder.Services.AddControllers()
 
 
 var app = builder.Build();
+
+app.MapPost("/sendmessage", (long id, string message, IPublishEndpoint publishEndPoint) =>
+{
+    publishEndPoint.Publish(new CommandMessage(id, message)); ;
+});
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
